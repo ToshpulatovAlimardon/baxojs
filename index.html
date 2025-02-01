@@ -1,11 +1,247 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baholar Jadvali</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello</h1>
+    <div class="container">
+        <h1>CODEVENT O'QUVCHILAR BAHOLARI</h1>
+        <input type="text" id="searchInput" placeholder="Qidirish...">
+        <table id="gradesTable">
+            <thead>
+                <tr>
+                    <th>O'quvchi Ismi</th>
+                    <th>Jami Ball (Foiz)</th>
+                    <th>Javascript 1-dars</th> <!-- Javascript 1-dars -->
+                    <th>Javascript 2-dars</th> <!-- Javascript 2-dars -->
+                    <th>Javascript 3-dars</th> <!-- Javascript 3-dars -->
+                    <th>Javascript 4-dars</th> <!-- Javascript 4-dars -->
+                    <th>Javascript 5-dars</th> <!-- Javascript 5-dars -->
+                    <th>Javascript 6-dars</th> <!-- Javascript 6-dars Funksiya -->
+                    <th>Javascript 7-dars</th> <!-- JS 7-dars String methodlari -->
+                    <th>Javascript 8-dars</th> <!-- 8-dars. Number methodlar. -->
+                    <th>Javascript 9-dars</th> <!-- 9-dars. Number methodlar. -->
+                    <th>Javascript 10-dars</th> <!-- 10-dars. Object. -->
+                    <th>Javascript 11-dars</th> <!-- 11-dars. Method, Destruktizatsiya. -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nasriddinova Zebo</td>
+                    <td class="ball">0%</td> <!-- Jami ball (Foiz) -->
+                    <td class="task">5</td> <!-- Javascript 1-dars -->
+                    <td class="task">5</td> <!-- Javascript 2-dars -->
+                    <td class="task">5</td> <!-- Javascript 3-dars -->
+                    <td class="task">5</td> <!-- Javascript 4-dars -->
+                    <td class="task">5</td> <!-- Javascript 5-dars -->
+                    <td class="task">5</td> <!-- Javascript 6-dars -->
+                    <td class="task">5</td> <!-- JS 7-dars String methodlari -->
+                    <td class="task">5</td> <!-- 8-dars. Number methodlar. -->
+                    <td class="task">0</td> <!-- 9-dars. Number methodlar. -->
+                    <td class="task">0</td> <!-- 10-dars. Object. -->
+                    <td class="task">0</td> <!-- 11-dars. Method, Destruktizatsiya. -->
+                </tr>
+                <tr>
+                    <td>Abduxoshimov Firdavs</td>
+                    <td class="ball">0%</td>
+                    <td class="task">5</td> <!-- Javascript 1-dars -->
+                    <td class="task">5</td> <!-- Javascript 2-dars -->
+                    <td class="task">4</td> <!-- Javascript 3-dars -->
+                    <td class="task">4</td> <!-- Javascript 4-dars -->
+                    <td class="task">4</td> <!-- Javascript 5-dars -->
+                    <td class="task">5</td> <!-- Javascript 6-dars -->
+                    <td class="task">5</td> <!-- JS 7-dars String methodlari -->
+                    <td class="task">5</td> <!-- 8-dars. Number methodlar. -->
+                    <td class="task">5</td> <!-- 9-dars. Number methodlar. -->
+                    <td class="task">0</td> <!-- 10-dars. Object. -->
+                    <td class="task">0</td> <!-- 11-dars. Method, Destruktizatsiya. -->
+                </tr>
+                <tr>
+                    <td>Shoimov Shuhrat</td>
+                    <td class="ball">0%</td>
+                    <td class="task">5</td> <!-- Javascript 1-dars -->
+                    <td class="task">5</td> <!-- Javascript 2-dars -->
+                    <td class="task">4</td> <!-- Javascript 3-dars -->
+                    <td class="task">5</td> <!-- Javascript 4-dars -->
+                    <td class="task">4</td> <!-- Javascript 5-dars -->
+                    <td class="task">5</td> <!-- Javascript 6-dars -->
+                    <td class="task">5</td> <!-- JS 7-dars String methodlari -->
+                    <td class="task">5</td> <!-- 8-dars. Number methodlar. -->
+                    <td class="task">5</td> <!-- 9-dars. Number methodlar. -->
+                    <td class="task">5</td> <!-- 10-dars. Object. -->
+                    <td class="task">5</td> <!-- 11-dars. Method, Destruktizatsiya. -->
+                </tr>
+                <tr>
+                    <td>Xolmamatov Samadbek</td>
+                    <td class="ball">0%</td>
+                    <td class="task">5</td> <!-- Javascript 1-dars -->
+                    <td class="task">5</td> <!-- Javascript 2-dars -->
+                    <td class="task">5</td> <!-- Javascript 3-dars -->
+                    <td class="task">5</td> <!-- Javascript 4-dars -->
+                    <td class="task">5</td> <!-- Javascript 5-dars -->
+                    <td class="task">5</td> <!-- Javascript 6-dars -->
+                    <td class="task">5</td> <!-- JS 7-dars String methodlari -->
+                    <td class="task">5</td> <!-- 8-dars. Number methodlar. -->
+                    <td class="task">5</td> <!-- 9-dars. Number methodlar. -->
+                    <td class="task">5</td> <!-- 10-dars. Object. -->
+                    <td class="task">5</td> <!-- 11-dars. Method, Destruktizatsiya. -->
+                </tr>
+                <tr>
+                    <td>Mardinov Yahyo</td>
+                    <td class="ball">0%</td>
+                    <td class="task">5</td> <!-- Javascript 1-dars -->
+                    <td class="task">5</td> <!-- Javascript 2-dars -->
+                    <td class="task">4</td> <!-- Javascript 3-dars -->
+                    <td class="task">5</td> <!-- Javascript 4-dars -->
+                    <td class="task">4</td> <!-- Javascript 5-dars -->
+                    <td class="task">0</td> <!-- Javascript 6-dars -->
+                    <td class="task">5</td> <!-- JS 7-dars String methodlari -->
+                    <td class="task">5</td> <!-- 8-dars. Number methodlar. -->
+                    <td class="task">5</td> <!-- 9-dars. Number methodlar. -->
+                    <td class="task">5</td> <!-- 10-dars. Object. -->
+                    <td class="task">5</td> <!-- 11-dars. Method, Destruktizatsiya. -->
+                </tr>
+                <tr>
+                    <td>Jumayev Zufarbek</td>
+                    <td class="ball">0%</td>
+                    <td class="task">5</td> <!-- Javascript 1-dars -->
+                    <td class="task">5</td> <!-- Javascript 2-dars -->
+                    <td class="task">5</td> <!-- Javascript 3-dars -->
+                    <td class="task">5</td> <!-- Javascript 4-dars -->
+                    <td class="task">5</td> <!-- Javascript 5-dars -->
+                    <td class="task">5</td> <!-- Javascript 6-dars -->
+                    <td class="task">5</td> <!-- JS 7-dars String methodlari -->
+                    <td class="task">5</td> <!-- 8-dars. Number methodlar. -->
+                    <td class="task">5</td> <!-- 9-dars. Number methodlar. -->
+                    <td class="task">5</td> <!-- 10-dars. Object. -->
+                    <td class="task">5</td> <!-- 11-dars. Method, Destruktizatsiya. -->
+                </tr>
+                <tr>
+                    <td>Ibragimov Asilbek </td>
+                    <td class="ball">0%</td>
+                    <td class="task">5</td> <!-- Javascript 1-dars -->
+                    <td class="task">5</td> <!-- Javascript 2-dars -->
+                    <td class="task">4</td> <!-- Javascript 3-dars -->
+                    <td class="task">5</td> <!-- Javascript 4-dars -->
+                    <td class="task">5</td> <!-- Javascript 5-dars -->
+                    <td class="task">5</td> <!-- Javascript 6-dars -->
+                    <td class="task">5</td> <!-- JS 7-dars String methodlari -->
+                    <td class="task">5</td> <!-- 8-dars. Number methodlar. -->
+                    <td class="task">5</td> <!-- 9-dars. Number methodlar. -->
+                    <td class="task">0</td> <!-- 10-dars. Object. -->
+                    <td class="task">0</td> <!-- 11-dars. Method, Destruktizatsiya. -->
+                </tr>
+                <tr>
+                    <td>Yoqubov Behruz</td>
+                    <td class="ball">0%</td>
+                    <td class="task">5</td> <!-- Javascript 1-dars -->
+                    <td class="task">5</td> <!-- Javascript 2-dars -->
+                    <td class="task">3</td> <!-- Javascript 3-dars -->
+                    <td class="task">4</td> <!-- Javascript 4-dars -->
+                    <td class="task">0</td> <!-- Javascript 5-dars -->
+                    <td class="task">0</td> <!-- Javascript 6-dars -->
+                    <td class="task">5</td> <!-- JS 7-dars String methodlari -->
+                    <td class="task">5</td> <!-- 8-dars. Number methodlar. -->
+                    <td class="task">5</td> <!-- 9-dars. Number methodlar. -->
+                    <td class="task">5</td> <!-- 10-dars. Object. -->
+                    <td class="task">5</td> <!-- 11-dars. Method, Destruktizatsiya. -->
+                </tr>
+                <tr>
+                    <td>Shahzod Aka</td>
+                    <td class="ball">0%</td>
+                    <td class="task">0</td> <!-- Javascript 1-dars -->
+                    <td class="task">0</td> <!-- Javascript 2-dars -->
+                    <td class="task">0</td> <!-- Javascript 3-dars -->
+                    <td class="task">0</td> <!-- Javascript 4-dars -->
+                    <td class="task">0</td> <!-- Javascript 5-dars -->
+                    <td class="task">0</td> <!-- Javascript 6-dars -->
+                    <td class="task">0</td> <!-- JS 7-dars String methodlari -->
+                    <td class="task">0</td> <!-- 8-dars. Number methodlar. -->
+                    <td class="task">0</td> <!-- 9-dars. Number methodlar. -->
+                    <td class="task">0</td> <!-- 10-dars. Object. -->
+                    <td class="task">0</td> <!-- 11-dars. Method, Destruktizatsiya. -->
+                </tr>
+                <tr>
+                    <td>Komilov Shohjahon</td>
+                    <td class="ball">0%</td>
+                    <td class="task">5</td> <!-- Javascript 1-dars -->
+                    <td class="task">5</td> <!-- Javascript 2-dars -->
+                    <td class="task">4</td> <!-- Javascript 3-dars -->
+                    <td class="task">5</td> <!-- Javascript 4-dars -->
+                    <td class="task">5</td> <!-- Javascript 5-dars -->
+                    <td class="task">5</td> <!-- Javascript 6-dars -->
+                    <td class="task">5</td> <!-- JS 7-dars String methodlari -->
+                    <td class="task">5</td> <!-- 8-dars. Number methodlar. -->
+                    <td class="task">5</td> <!-- 9-dars. Number methodlar. -->
+                    <td class="task">5</td> <!-- 10-dars. Object. -->
+                    <td class="task">5</td> <!-- 11-dars. Object. -->
+                </tr>
+                <tr>
+                    <td>Safarov Durbek</td>
+                    <td class="ball">0%</td> 
+                    <td class="task">5</td> <!-- Javascript 1-dars -->
+                    <td class="task">5</td> <!-- Javascript 2-dars -->
+                    <td class="task">4</td> <!-- Javascript 3-dars -->
+                    <td class="task">5</td> <!-- Javascript 4-dars -->
+                    <td class="task">2</td> <!-- Javascript 5-dars -->
+                    <td class="task">4</td> <!-- Javascript 6-dars -->
+                    <td class="task">5</td> <!-- Javascript 7-dars -->
+                    <td class="task">5</td> <!-- Javascript 8-dars -->
+                    <td class="task">5</td> <!-- 9-dars. Number methodlar. -->
+                    <td class="task">0</td> <!-- 10-dars. Object. -->
+                    <td class="task">0</td> <!-- 11-dars. Method, Destruktizatsiya. -->
+                </tr>
+                <tr>
+                    <td>Vahobjonov Ulug'bek</td>
+                    <td class="ball">0%</td>
+                    <td class="task">5</td> <!-- Javascript 1-dars -->
+                    <td class="task">5</td> <!-- Javascript 2-dars -->
+                    <td class="task">4</td> <!-- Javascript 3-dars -->
+                    <td class="task">5</td> <!-- Javascript 4-dars -->
+                    <td class="task">2</td> <!-- Javascript 4-dars -->
+                    <td class="task">3</td> <!-- Javascript 6-dars -->
+                    <td class="task">4</td> <!-- JS 7-dars String methodlari -->
+                    <td class="task">5</td> <!-- 8-dars. Number methodlar. -->
+                    <td class="task">5</td> <!-- 9-dars. Number methodlar. -->
+                    <td class="task">0</td> <!-- 10-dars. Object. -->
+                    <td class="task">0</td> <!-- 11-dars. Method, Destruktizatsiya. -->
+                </tr>
+                <tr>
+                    <td>Sadullayev Sarvar</td>
+                    <td class="ball">0%</td>
+                    <td class="task">5</td> <!-- Javascript 1-dars -->
+                    <td class="task">5</td> <!-- Javascript 2-dars -->
+                    <td class="task">5</td> <!-- Javascript 3-dars -->
+                    <td class="task">5</td> <!-- Javascript 4-dars -->
+                    <td class="task">5</td> <!-- Javascript 5-dars -->
+                    <td class="task">5</td> <!-- Javascript 6-dars -->
+                    <td class="task">5</td> <!-- JS 7-dars String methodlari -->
+                    <td class="task">5</td> <!-- 8-dars. Number methodlar. -->
+                    <td class="task">5</td> <!-- 9-dars. Number methodlar. -->
+                    <td class="task">0</td> <!-- 10-dars. Object. -->
+                    <td class="task">0</td> <!-- 11-dars. Method, Destruktizatsiya. -->
+                </tr>
+                <tr>
+                    <td>Arslonov Umid</td>
+                    <td class="ball">0%</td>
+                    <td class="task">5</td> <!-- Javascript 1-dars -->
+                    <td class="task">5</td> <!-- Javascript 2-dars -->
+                    <td class="task">5</td> <!-- Javascript 3-dars -->
+                    <td class="task">5</td> <!-- Javascript 4-dars -->
+                    <td class="task">5</td> <!-- Javascript 5-dars -->
+                    <td class="task">5</td> <!-- Javascript 6-dars -->
+                    <td class="task">5</td> <!-- JS 7-dars String methodlari -->
+                    <td class="task">3</td> <!-- 8-dars. Number methodlar. -->
+                    <td class="task">4</td> <!-- 9-dars. Number methodlar. -->
+                    <td class="task">0</td> <!-- 10-dars. Object. -->
+                    <td class="task">0</td> <!-- 11-dars. Method, Destruktizatsiya. -->
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
