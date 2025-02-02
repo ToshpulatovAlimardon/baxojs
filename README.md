@@ -1,5 +1,5 @@
-# Rock-Paper-Scissors-game
-Rock Paper Scissors game
+# Javascript baxolar
+Codevent Javascript baxolar
 
 - Html5
 - Css3 
